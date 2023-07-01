@@ -1,0 +1,66 @@
+.dinner-bid-sec {
+  background: rgba(16, 20, 24, 0.70);
+
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    .content {
+      width: 466px;
+      position: absolute;
+      left: 25%;
+      top: 103px;
+
+      p {
+        color: #FFFFFC;
+        text-align: center;
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        margin-bottom: 35px;
+      }
+
+      h1 {
+        color: #FFCE6D;
+        text-align: center;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 0.64px;
+        margin-bottom: 22px;
+      }
+    }
+  }
+}
+
+@media (max-width : 1199px) {
+  .dinner-bid-sec {
+    .container {
+      width: 95%;
+    }
+  }
+}
+
+@media (max-width : 991px) {
+  .dinner-bid-sec {
+    padding-bottom: 50px !important;
+    >div {
+      img {
+        margin: auto;
+        display: none;
+      }
+    }
+
+    .content {
+      position: relative !important;
+      padding: 20px 0px;
+      left: 0 !important;
+      top: 45px !important;
+      width: 100% !important;
+    }
+  }
+}
