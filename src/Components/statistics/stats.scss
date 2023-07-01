@@ -1,0 +1,63 @@
+.stats-sec {
+  background: rgba(16, 20, 24, 0.70);
+  padding: 56px 0px;
+
+  .stats-inner {
+    display: flex;
+    justify-content: space-between;
+
+    .stats-element {
+      display: flex;
+      gap: 20px;
+
+      .stats-info {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .stats-number {
+        color: #FFCE6D;
+        text-align: center;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 117.3%;
+        text-transform: capitalize;
+      }
+
+      .stats-name {
+        color: #FFFFFC;
+        font-size: 1.125rem;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 117.3%;
+        text-transform: capitalize;
+      }
+
+    }
+  }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+  .stats-sec {
+    .container {
+      width: 90%;
+    }
+  }
+}
+
+@media (min-width : 320px) and (max-width : 767px) {
+  .stats-sec {
+    .container {
+      .stats-inner {
+        flex-direction: column;
+
+        .stats-element {
+          justify-content: center;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
