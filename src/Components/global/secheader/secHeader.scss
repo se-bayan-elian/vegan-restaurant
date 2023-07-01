@@ -18,10 +18,10 @@
     line-height: 117.3%;
     text-transform: capitalize;
   }
-  .center{
+  &.center{
     text-align: center;
   }
-  .right{
+  &.right{
     text-align: right;
   }
 }
