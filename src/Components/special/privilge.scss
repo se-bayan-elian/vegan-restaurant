@@ -1,0 +1,34 @@
+.privilige-box {
+  flex: 1;
+  padding: 73px 58px;
+  text-align: center;
+  border: 1px dashed #FFCE6D;
+  background: rgba(160, 128, 64, 0.30);
+
+  img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 16px;
+  }
+
+  h1 {
+    color: #FFFFFC;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117.3%;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+  }
+
+  p {
+    color: #FFFFFC;
+    text-align: justify;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.3%;
+    letter-spacing: 1.82px;
+    text-transform: capitalize;
+  }
+}
