@@ -1,0 +1,38 @@
+.Foods{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 141px ;
+  padding: 32px 0px;
+  align-content: start;
+}
+@media (min-width : 1199px) and (max-width : 1300px){
+  .Foods{
+    gap : 32px 50px; 
+    >div{
+      width: 47%;
+    }
+  }
+}
+@media  (max-width : 1199px){
+  .Foods{
+    gap : 32px 40px; 
+    font-size: 14px;
+    >div{
+      width: 47.5%;
+      .expanded-line{
+        width: 80px;
+      }
+    }
+  }
+}
+@media  (max-width : 991px){
+  .Foods{
+    gap : 32px 40px; 
+    font-size: 14px;
+    flex-direction: column;
+    >div{
+      width: 100%;
+
+    }
+  }
+}

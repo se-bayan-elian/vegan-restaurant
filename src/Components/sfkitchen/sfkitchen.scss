@@ -1,0 +1,21 @@
+@media (min-width : 991px)and (max-width :1199px){
+  .sfkitchen-sec{
+    .container{
+      width: 90% !important;
+    }
+  }
+}
+@media (min-width : 768px)and (max-width :991px){
+  .sfkitchen-sec{
+    .container{
+      width: 50% !important;
+    }
+  }
+}
+@media (min-width : 320px)and (max-width :767px){
+  .sfkitchen-sec{
+    .container{
+      width: 95% !important;
+    }
+  }
+}
