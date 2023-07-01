@@ -1,0 +1,27 @@
+.sec-header {
+  margin-bottom: 56px;
+  .sec-title {
+    color: #FFCE6D;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117.3%;
+    letter-spacing: 0.225rem;
+    margin-bottom: 0.81rem;
+  }
+
+  .sec-desc {
+    color: #FFFFFC;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117.3%;
+    text-transform: capitalize;
+  }
+  .center{
+    text-align: center;
+  }
+  .right{
+    text-align: right;
+  }
+}
