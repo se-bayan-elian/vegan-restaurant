@@ -1,0 +1,12 @@
+.container{
+  margin: auto;
+  &.lg {
+    width: 94px;
+  }
+  &.md{
+    width: 79%;
+  }
+  &.sm{
+    width: 70%;
+  }
+}
