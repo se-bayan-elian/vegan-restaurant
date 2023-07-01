@@ -1,4 +1,4 @@
-import Image from 'next/image'
+'use client'
 import React, { Component } from 'react'
 
 export default class Home extends Component {
