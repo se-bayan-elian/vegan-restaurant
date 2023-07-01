@@ -1,11 +1,12 @@
 export  const VEGAN_INFO = {
   "header": {
     "navbar": {
-      icon: "",
+      logo: "/assets/images/header/logo.png",
       hyperlinks: [
         'Home', 'About Us', 'Special', 'Menu', 'Blogs'
       ]
     }
+    , bg : '/assets/images/header/bg.png'
   },
   'aboutUs': {
     title: 'Discover the taste of worldclass vegan dishes from the kitchen of Go Green Dine',
