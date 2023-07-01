@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SecHeader from "../global/secBtn/secheader/SecHeader";
+import SecHeader from "../global/secheader/SecHeader";
 import Container from "../global/container/Container";
 import "./about.css";
 import { VEGAN_INFO } from "@/Mock/info";
@@ -14,7 +14,7 @@ export default class AboutUs extends Component {
             <SecHeader
               title="About Us"
               desc={VEGAN_INFO.aboutUs.title}
-              variant="right"
+              variant="left"
             />
             <p>{VEGAN_INFO.aboutUs.description}</p>
             <SectionButton content="Read more" href="" />
