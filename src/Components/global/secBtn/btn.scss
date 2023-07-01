@@ -1,0 +1,27 @@
+.sec-btn {
+  width: 215px;
+  height: 55px;
+  border: 2px solid #FFFCCC;
+  background: rgba(217, 217, 217, 0.00);
+  margin: auto;
+
+  transition: 0.5s;
+
+  a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 119.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &:hover {
+    background-color: #A08040;
+  }
+}
