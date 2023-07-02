@@ -23,9 +23,9 @@ export default class SubscribeSec extends Component {
                     id="Vector"
                     d="M2 6L16 16L30 6M2 26H30V6H2V26Z"
                     stroke="#A08040"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </g>
               </svg>
