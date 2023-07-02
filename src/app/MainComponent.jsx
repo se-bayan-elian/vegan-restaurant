@@ -17,8 +17,8 @@ const MainComponent = ({ children }) => {
       <div
         className="animated-background"
         style={{
-          background: 'url("/assets/animatedBg.gif") repeat',
-          backgroundSize: "cover",
+          backgroundImage: 'url("/assets/animatedBg.gif")',
+          backgroundRepeat: "repeat",
         }}
       >
         {children}
