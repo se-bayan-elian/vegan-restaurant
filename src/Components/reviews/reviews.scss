@@ -1,0 +1,78 @@
+.reviews-sec {
+  padding: 100px 0px;
+
+  .reviews-cards {
+    display: flex;
+    justify-content: center;
+    .review-card {
+      background: rgba(16, 20, 24, 0.70);
+      padding: 58px 38px;
+      min-height: 385px;
+      min-width: 732px;
+      transition: 0.5s;
+
+      .card-header {
+        display: flex;
+        gap: 50px;
+        margin-bottom: 37px;
+        align-items: center;
+
+        .right {
+          display: flex;
+          flex-direction: column;
+
+          h3 {
+            color: #FFFFFC;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 155.3%;
+            letter-spacing: 2.34px;
+            text-transform: capitalize;
+          }
+
+          .rank {
+            display: flex;
+            gap: 2px;
+          }
+        }
+      }
+
+      .card-description {
+        color: #FFFFFC;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.08px;
+        text-transform: capitalize;
+      }
+      // categories of cards
+      // cards on right side
+      &.right {
+        transform: translate(-21%);
+      }
+      // cards on left side
+
+      &.left {
+        transform: translate(21%);
+
+      }
+
+      &.active {
+        width: 732px;
+      }
+
+      &:hover{
+        background-color: rgba($color: #ffce6d, $alpha: 0.6);
+      }
+    }
+  }
+}
+@media (max-width : 991px){
+  .reviews-sec{
+    .review-card{
+      min-width: 90% !important;
+    }
+  }
+}

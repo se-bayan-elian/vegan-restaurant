@@ -8,7 +8,7 @@ import Image from "next/image";
 export default class AboutUs extends Component {
   render() {
     return (
-      <section className="about-sec">
+      <section className="about-sec" id="AboutUs">
         <Container variant="md">
           <div className="left">
             <SecHeader

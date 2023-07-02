@@ -6,7 +6,6 @@
 
     .left {
       flex: 1.8;
-
       p {
         color: #FFFFFC;
         font-size: 0.875rem;
@@ -33,12 +32,21 @@
         text-align: center;
         p{
           width: 100% !important;
+          text-align: justify;
         }
         .sec-btn{
           margin: auto !important;
         }
+        h1,h2{
+          text-align: center;
+        }
+      }
+      .right{
+        display: flex;
+        justify-content: center;
         img{
-          margin-bottom: 40px;
+          margin: 0 auto 40px;
+
         }
       }
     }
@@ -47,7 +55,7 @@
 @media (max-width : 767px){
   .about-sec{
     img{
-      transform: scale(0.7);
+      transform: scale(0.5);
     }
   }
 }

@@ -1,0 +1,26 @@
+.contact-us {
+  padding: 73px 0px;
+  background: rgba(16, 20, 24, 0.70);
+
+  .contact-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    
+  }
+}
+
+@media (max-width:991px) {
+  .contact-inner {
+    flex-direction: column;
+
+  }
+}
+
+@media (min-width:992px) and (max-width : 1199px){
+  .contact-us{
+    .container{
+      width: 90%;
+    }
+  }
+}

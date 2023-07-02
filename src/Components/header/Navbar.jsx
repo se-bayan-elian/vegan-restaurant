@@ -34,9 +34,9 @@ export default class Navbar extends Component {
         </div>
         <div className={`collapse ${this.state.navbarIsOpen && 'collapse-open'}`}>
           <ul>
-            {VEGAN_INFO.header.navbar.hyperlinks.map((hyperlink) => (
+            {VEGAN_INFO.header.navbar.hyperlinks.map((hyperlink,index) => (
               <li key={hyperlink}>
-                <a href={"#" + hyperlink} target="_self">
+                <a href={index>0 ?("#" + hyperlink.split(' ').join('')) : '/'} target="_self">
                   {hyperlink}
                 </a>
               </li>
@@ -62,7 +62,7 @@ export default class Navbar extends Component {
           </ul>
         </div>
         <div className={`book-btn ${this.state.navbarIsOpen && 'book-btn-open'}`}>
-          <Link href={"/reverse"}>Book Now</Link>
+          <Link href={"/reserve"}>Book Now</Link>
         </div>
       
       </nav>

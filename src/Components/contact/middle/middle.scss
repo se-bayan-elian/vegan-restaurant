@@ -1,0 +1,44 @@
+.mid-item {
+  h1 {
+    color: #FFFFFC;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 31px;
+  }
+
+  ul {
+    list-style-type: disc;
+    color: #fff;
+    list-style-position: inside;
+
+    li {
+      a {
+        color: #FFFFFC;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 168.8%;
+        letter-spacing: 2.08px;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
+@media (max-width : 991px) {
+  .mid-item{
+    margin-bottom: 20px;
+    h1{
+      text-align: center;
+    }ul{
+      margin: auto;
+      text-align: center;
+      list-style-type: none;
+      li{
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

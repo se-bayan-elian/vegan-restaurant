@@ -2,6 +2,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  border: none;
+  outline: none;
 }
 
 html,
@@ -11,10 +13,24 @@ body {
 }
 
 body {
+  font-family: Roboto , arial;
   background: #101418
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+ul{
+  list-style-type:none ;
+}
+button{
+  background-color: transparent;
+  cursor:pointer;
+}
+
+@media (max-width : 991px){
+  html{
+    font-size: 14px;
+}
 }

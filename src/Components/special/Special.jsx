@@ -7,7 +7,7 @@ import './special.css'
 export default class Special extends Component {
   render() {
     return (
-      <section className='special-sec'>
+      <section className='special-sec' id='Special'>
         <SecHeader desc={VEGAN_INFO.special.title} title='Special' variant='center'/>
         <div className="privilges-boxes">
           <Container variant='lg'>

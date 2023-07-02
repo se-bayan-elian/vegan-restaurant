@@ -7,7 +7,7 @@ import'./sfkitchen.css'
 export default class SFKitchen extends Component {
   render() {
     return (
-      <section className="sfkitchen-sec" style={{padding : '49px 0px 111px'  }}>
+      <section className="sfkitchen-sec" id='Menu' style={{padding : '49px 0px 111px'  }}>
         <Container variant="md">
           <SecHeader
             title="Straight From Kitchen"
