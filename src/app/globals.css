@@ -4,6 +4,8 @@
   margin: 0;
   border: none;
   outline: none;
+  scroll-behavior:smooth !important;
+
 }
 
 html,
@@ -14,7 +16,7 @@ body {
 
 body {
   font-family: Roboto , arial;
-  background: #101418
+  background: #101418;
 }
 
 a {
